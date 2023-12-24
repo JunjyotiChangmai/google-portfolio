@@ -1,37 +1,80 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Poppins:wght@200;400&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 .sub_Header {
+    height: 70px;
     margin: 5px;
     background-color: transparent;
     color: white;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 1px rgb(231, 227, 227);
+}
+.sub_header_part1 {
+    display: flex;
+}
+.sub_header_part2 {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.main_search_bar {
+    padding-left: 4.6rem;
+    padding-right: 4rem;
 }
 
 .search_Bar {
-    border: 1px solid rgb(149, 146, 146);
+    border: 1px solid transparent;
     border-radius: 25px;
-    padding: 5px 15px;
-    width: 35vw;
+    padding: 13px 15px;
+    width: 43vw;
     display: flex;
     align-items: center;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    justify-content: space-between;
+    box-shadow: 0px 2px 2px 0px rgb(240, 240, 240), 0px 2px 2px 0px rgb(216, 216, 216);
+    
 }
 
 .search_Bar input {
-    border: none;
-    border-radius: 16px;
+    border: 0;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    width: 34vw;
+    color: rgb(53, 51, 51);
+    outline: none;
+}
+
+.main_search_icon {
+    display: flex;
+    
+}
+.cross_icon {
+    padding: 0px 8px;
+    cursor: pointer;
+}
+.search_icon {
+    cursor: pointer;
+}
+
+.main_profile_icon {
+    position: relative;
+}
+
+.day_icon {
+    padding: 0px 15px;
+    cursor: pointer;
 }
 
 .profile_Icon {
     color: white;
     background-color: orange;
-    padding: 0.8rem 1.2rem;
+    padding: 0.6rem 1rem;
     border-radius: 50%;
     cursor: pointer;
 
