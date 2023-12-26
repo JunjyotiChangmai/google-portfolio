@@ -14,7 +14,7 @@
 .sub_Header {
     height: 70px;
     margin: 5px;
-    background-color: transparent;
+    background-color: white;
     color: white;
     padding: 10px;
     display: flex;
@@ -128,6 +128,7 @@ li {
 
 
 
+
 .main_content {
     display: flex;
     padding-left: 170px;
@@ -135,6 +136,8 @@ li {
 
 .main_part_1 {
     padding-top: 20px;
+    width: 42vw;
+    margin-right: 160px;
 }
 .Myname {
     font-size: 20px;
@@ -147,4 +150,48 @@ li {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     color: rgb(57, 57, 57);
+}
+
+.myPhoto {
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.myImg {
+    height: 200px;
+    box-shadow: 0px 1px 3px 1px rgb(157, 157, 157);
+}
+
+.main_part_2 {
+    border: none;
+    border-radius: 25px;
+    margin: 20px 160px 0px 0px;
+    width: 375px;
+    height: 40rem;
+    box-shadow: 0px 1px 3px 1px rgb(157, 157, 157);
+}
+
+.aboutme {
+    padding: 14px 10px 6px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(67, 67, 67);
+}
+
+.junResume {
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px 85px;
+    padding: 9px 2px;
+    border-radius: 20px;
+    background-color: rgb(236, 237, 238);
+    cursor: pointer;
+    color: rgb(54, 54, 55);
+    font-family: 'Inter', sans-serif;
+}
+.jr {
+    padding-right: 7px;
 }
