@@ -20,11 +20,11 @@
                 <div class="main_search_bar">
                     <div class="search_Bar">
                         <div class="small_search_bar">
-                            <input type="text" value="Junjyoti Changmai">
+                            <input id="searchBar" type="text" value="Junjyoti Changmai">
                         </div>
 
                         <div class="main_search_icon">
-                            <div class="cross_icon">
+                            <div class="cross_icon" onclick="searchErase()">
                                 <i class="fa-solid fa-xmark" style="color: rgb(77, 81, 86);"></i>
                             </div>
                             <div class="search_icon">
@@ -89,7 +89,7 @@
             </div>
             <div class="aboutme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam aut hic
                 perferendis quod itaque amet eum atque obcaecati officiis?</div>
-            <div class="junResume">
+            <div class="junResume" id="junResume">
                 <div class="jr">Junjyoti's Resume </div>
                 <i class="fa-solid fa-download"></i>
             </div>
@@ -97,7 +97,7 @@
             <hr>
         </div>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
