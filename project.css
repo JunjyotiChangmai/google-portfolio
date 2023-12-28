@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Poppins:wght@200;400&display=swap');
 
   * {
       box-sizing: border-box;
@@ -134,83 +134,4 @@
 
   .sub_header2 {
       height: 40px;
-  }
-
-
-
-
-
-  .main_content {
-      display: flex;
-      padding-left: 196px;
-  }
-
-  .main_part_1 {
-      padding-top: 20px;
-      width: 44vw;
-      margin-right: 122px;
-  }
-
-  .Myname {
-      font-size: 20px;
-      font-family: 'Arial', sans-serif;
-      color: #1A0DAB;
-      margin: 0px 0px 5px;
-      font-weight: 300;
-  }
-
-  .aboutMe {
-      font-size: 15px;
-      font-family: 'Poppins', sans-serif;
-      color: rgb(57, 57, 57);
-  }
-
-  .myPhoto {
-      padding-top: 12px;
-      display: flex;
-      justify-content: center;
-  }
-
-  .myImg {
-      height: 20vh;
-      box-shadow: 0px 1px 3px 1px rgb(157, 157, 157);
-  }
-
-  .main_part_2 {
-      border: none;
-      border-radius: 25px;
-      margin: 20px 125px 0px 0px;
-      width: 24vw;
-      height: 40rem;
-      box-shadow: 0px 1px 3px 1px rgb(157, 157, 157);
-  }
-
-  .aboutme {
-      padding: 14px 10px 6px 10px;
-      font-family: 'Poppins', sans-serif;
-      font-size: 17px;
-      text-align: center;
-      color: rgb(67, 67, 67);
-  }
-
-  .junResume {
-      border: none;
-      display: flex;
-      justify-content: center;
-      margin: 10px 85px;
-      padding: 9px 2px;
-      border-radius: 20px;
-      background-color: rgb(236, 237, 238);
-      cursor: pointer;
-      color: rgb(54, 54, 55);
-      font-family: 'Inter', sans-serif;
-  }
-
-  .jr {
-      padding-right: 7px;
-  }
-
-  .workExp {
-    padding: 13px 0px 0px 20px;
-    font-family: 'Arial', sans-serif;
   }
