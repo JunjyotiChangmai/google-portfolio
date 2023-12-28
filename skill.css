@@ -135,3 +135,147 @@
   .sub_header2 {
       height: 40px;
   }
+
+
+   /* skill section start */
+
+
+  .skill_Section {
+    margin: 40px 170px 1px 175px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(81, 81, 81);
+    font-size: 14px;
+  }
+
+  .main_skills1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .javascript {
+    border: none;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(255, 221, 0);
+  }
+  .javascript:hover {
+    border: none;
+    height: 102px;
+    width: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(255, 221, 0);
+  }
+
+  .skill_icon {
+    height: 46px;
+    width: 46px;
+    margin-bottom: 10px;
+  }
+
+  .jscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .html {
+    border: none;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(255, 153, 0);
+  }
+
+  .html:hover {
+    border: none;
+    height: 102px;
+    width: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(255, 153, 0);
+  }
+
+  .css {
+    border: none;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(0, 170, 255);
+  }
+  .css:hover {
+    border: none;
+    height: 102px;
+    width: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(0, 170, 255);
+  }
+
+  .main_skills2 {
+    display: flex;
+    padding: 40px 0px 0px 43px;
+
+  }
+
+  .c_lang {
+    border: none;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(65, 1, 167);
+  }
+
+  .c_lang:hover {
+    border: none;
+    height: 102px;
+    width: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(65, 1, 167);
+  }
+
+
+  .cpp_lang {
+    border: none;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(0, 170, 255);
+  }
+
+  .cpp_lang:hover {
+    border: none;
+    height: 102px;
+    width: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(0, 170, 255);
+  }
