@@ -107,13 +107,13 @@
       font-family: 'Inter', sans-serif;
   }
 
-  ul {
+  .sh2_ul {
       display: flex;
       align-items: center;
       margin-left: 11.85rem;
   }
 
-  li {
+  .sh2_li {
       display: flex;
       list-style: none;
       padding: 12px 15px;
@@ -138,55 +138,26 @@
 
 
    /* skill section start */
-
-
-  .skill_Section {
-    margin: 40px 170px 1px 175px;
-    font-family: 'Inter', sans-serif;
-    color: rgb(81, 81, 81);
-    font-size: 14px;
-  }
-
-  .main_skills1 {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .javascript {
-    border: none;
-    height: 100px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 11px;
-    box-shadow: 0px 3px 8px 1px rgb(255, 221, 0);
-  }
-  .javascript:hover {
-    border: none;
-    height: 102px;
-    width: 202px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 11px;
-    box-shadow: 0px 3px 8px 1px rgb(255, 221, 0);
-  }
+   
 
   .skill_icon {
     height: 46px;
     width: 46px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
-  .jscontainer {
+  .mainskills {
+      display: flex;
+      align-items: center;
+      margin-left: 11.85rem;
+      margin-right: 11.85rem;
+      font-family: 'Inter', sans-serif;
+      color: rgba(77, 81, 86);
+  }
+
+  .skills_container_1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .html {
     border: none;
     height: 100px;
     width: 200px;
@@ -195,20 +166,36 @@
     align-items: center;
     border-radius: 11px;
     box-shadow: 0px 3px 8px 1px rgb(255, 153, 0);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
   }
 
-  .html:hover {
+  .skills_container_1:hover {
+    display: flex;
+    flex-direction: column;
     border: none;
     height: 102px;
-    width: 202px;
+    width: 203px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 11px;
     box-shadow: 0px 3px 8px 1px rgb(255, 153, 0);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
   }
 
-  .css {
+  .skills_container_2 {
+    display: flex;
+    flex-direction: column;
     border: none;
     height: 100px;
     width: 200px;
@@ -217,25 +204,74 @@
     align-items: center;
     border-radius: 11px;
     box-shadow: 0px 3px 8px 1px rgb(0, 170, 255);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
   }
-  .css:hover {
+
+  .skills_container_2:hover {
+    display: flex;
+    flex-direction: column;
     border: none;
     height: 102px;
-    width: 202px;
+    width: 203px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 11px;
     box-shadow: 0px 3px 8px 1px rgb(0, 170, 255);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
   }
 
-  .main_skills2 {
+  .skills_container_3 {
     display: flex;
-    padding: 40px 0px 0px 43px;
-
+    flex-direction: column;
+    border: none;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(255, 200, 0);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
   }
 
-  .c_lang {
+  .skills_container_3:hover {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    height: 102px;
+    width: 203px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    box-shadow: 0px 3px 8px 1px rgb(255, 200, 0);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
+  }
+
+  .skills_container_4 {
+    display: flex;
+    flex-direction: column;
     border: none;
     height: 100px;
     width: 200px;
@@ -244,21 +280,36 @@
     align-items: center;
     border-radius: 11px;
     box-shadow: 0px 3px 8px 1px rgb(65, 1, 167);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
   }
 
-  .c_lang:hover {
+  .skills_container_4:hover {
+    display: flex;
+    flex-direction: column;
     border: none;
     height: 102px;
-    width: 202px;
+    width: 203px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 11px;
     box-shadow: 0px 3px 8px 1px rgb(65, 1, 167);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
   }
 
-
-  .cpp_lang {
+  .skills_container_5 {
+    display: flex;
+    flex-direction: column;
     border: none;
     height: 100px;
     width: 200px;
@@ -267,15 +318,31 @@
     align-items: center;
     border-radius: 11px;
     box-shadow: 0px 3px 8px 1px rgb(0, 170, 255);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
   }
 
-  .cpp_lang:hover {
+  .skills_container_5:hover {
+    display: flex;
+    flex-direction: column;
     border: none;
     height: 102px;
-    width: 202px;
+    width: 203px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 11px;
     box-shadow: 0px 3px 8px 1px rgb(0, 170, 255);
+    margin: 40px 20px 10px 20px;
+    list-style: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(247, 250, 253);
   }
+
+  
